@@ -1,0 +1,88 @@
+* {
+    background-color: #CAD5E2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.conatainer{
+    
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:20;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+
+}
+#seconds,#tens{
+    font-size: 10rem;
+    color:black;
+    background: transparent;
+    
+}
+.btn{
+    margin-top: 20%;
+    margin-left: 30%;
+    background: transparent;
+}
+#timer{
+    margin-top: 10%;
+    margin-left: 25%;
+    background: transparent;
+    font-size: 50px;
+}
+.box{
+    
+    z-index:1;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    z-index: 0;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 50px;
+    box-shadow: -2px -1px 81px -14px rgba(0,0,0,1);
+-webkit-box-shadow: -2px -1px 81px -14px rgba(0,0,0,1);
+-moz-box-shadow: -2px -1px 81px -14px rgba(0,0,0,1);
+}
+button{
+    width: 150px;
+    height: 50px;
+    
+    border-radius: 10px;
+    background-color:#E8BD0D ;
+    font-size: large;
+    color: black;
+}
+button:hover {
+    background: white;
+    color: black;
+    font-weight: 800;
+    text-transform: capatalize;
+
+}
+
+.wave1-svg {
+    position:absolute;
+    z-index: -1;
+    margin-top: -100px;
+    height: 350px;
+    width: 100%;
+}
+
+    
+        
+.image-svg{
+    margin: 10% 31%;
+    width: 150px;
+    height: auto;
+    background: transparent;
+}
+@media (min-width:320px)  {
+    
+ }
